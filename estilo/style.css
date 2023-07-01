@@ -84,6 +84,14 @@ main a:hover {
     text-decoration: underline;
 }
 
+div.english {
+    position: absolute;
+    bottom: -70px;
+    left: 285px;
+    font-size: 0.7em;
+    text-align: center;
+}
+
 aside {
     position: relative;
     height:280px;
