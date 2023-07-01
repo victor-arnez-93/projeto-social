@@ -12,7 +12,7 @@ a.externo::after {
 }
 
 body {
-    background-image: url(../imagens/4.jpg);
+    background-image: url(imagens/4.jpg);
     width: 100%;
     height: 100%;
     background-size: cover;
@@ -91,24 +91,24 @@ aside {
     border-radius: 10px;
 }
 
-aside > h2 {
+div > h2 {
     font-family: 'Kalam', cursive;
     font-style: italic;
     font-size: 1.5em;
     position: absolute;
-    bottom: 80px;
-    left: 15px;
+    bottom: 90px;
+    left: -15px;
     color: #ee8242;
     font-weight: normal;
     padding: 10px;
 }
 
-aside > ul {
+div > ul {
     list-style-type: '\2714\00A0\00A0'; 
     list-style-position: inside;
     position: absolute;
-    bottom: -50px;
-    left: 10px;
+    bottom: -30px;
+    left: -15px;
     font-size: 0.9em;
 }
 
@@ -118,6 +118,40 @@ aside > ul {
     height: 100vh;
     bottom: -180px;
     left: 520px;
+}
+
+.socialhover > ul {
+  background-color: #ee814231;
+  color: white;
+  transition: background-color 2 ease;
+  border-radius: 10px;
+  display: none;
+}
+
+.socialhover:hover > ul {
+  display: block;
+  font-weight: bold;
+}
+
+footer {
+  background-image: linear-gradient(to right, #ee81425b, #e0530262, rgba(0, 0, 0, 0.219));
+  color: white;
+  text-align: center;
+  font-size: 0.6em;
+  padding: 10px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .backpic {
+  text-decoration: none;
+  color: white;
+}
+
+.backpic:hover {
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 580px) {
