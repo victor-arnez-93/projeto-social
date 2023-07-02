@@ -29,19 +29,14 @@ header {
 
 header > h1 {
     color: #ee8242;
-    font-family: 'Kalam', cursive;
-    font-size: 2.5em;
-    font-weight: normal;
-    font-style: italic;
+    font: italic normal 2.5em 'Kalam', cursive;
     padding-top: 2px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.464);
 }
 
 header > p {
     color: #ee8242;
-    font-family: 'Kalam', cursive;
-    font-style: italic;
-    font-size: 1.4em;
+    font: italic 1.4em 'Kalam', cursive;
     max-width: 600px;
     padding-right: 10px;
     padding-left: 10px;
@@ -100,14 +95,11 @@ aside {
 }
 
 div > h2 {
-    font-family: 'Kalam', cursive;
-    font-style: italic;
-    font-size: 1.5em;
+    font: italic normal 1.5em 'Kalam', cursive;
     position: absolute;
     bottom: 90px;
     left: -15px;
     color: #ee8242;
-    font-weight: normal;
     padding: 10px;
 }
 
@@ -163,10 +155,18 @@ footer .backpic {
 }
 
 @media screen and (max-width: 580px) {
+    div.english {
+    position: relative;
+    bottom: -110px;
+    left: -50px;
+    }
+  }
+
+@media screen and (max-width: 580px) {
     .fotoperfil {
     position: relative;
-    bottom: -200px;
-    left: 320px;
+    bottom: -165px;
+    left: 300px;
     }
   }
 
@@ -177,3 +177,4 @@ footer .backpic {
     left: 10px;
     }
   }
+
