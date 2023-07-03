@@ -79,14 +79,6 @@ main a:hover {
     text-decoration: underline;
 }
 
-div.english {
-    position: absolute;
-    bottom: -70px;
-    left: 285px;
-    font-size: 0.7em;
-    text-align: center;
-}
-
 aside {
     position: relative;
     height:280px;
@@ -153,14 +145,6 @@ footer .backpic {
 .backpic:hover {
   text-decoration: underline;
 }
-
-@media screen and (max-width: 580px) {
-    div.english {
-    position: relative;
-    bottom: -110px;
-    left: -50px;
-    }
-  }
 
 @media screen and (max-width: 580px) {
     .fotoperfil {
